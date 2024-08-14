@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <title>Roy Harmon</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
@@ -49,8 +52,11 @@
                 I am confident that my versatile content creation experience, data-driven approach, and proven leadership skills make me an ideal candidate for this role. I look forward to the possibility of discussing how my background and vision align with Grammarly’s needs. I am available for an interview at your earliest convenience and can be reached at <a href="mailto:royharmon4@gmail.com" class="underline text-blue-600">royharmon4@gmail.com</a> or (864) 414-4314.
             </p>
             <p>Thank you for considering my application.</p>
+            <p></p>
             <p>Sincerely,</p>
+            <p></p>
             <p>Roy Harmon</p>
+            <button onclick="scrollToTop()" class="back-to-top">Back to Top</button>
         </section>
 
         <section id="resume" class="mb-12">
@@ -114,6 +120,7 @@
                     <li>Produced a high-performing video ad for Facebook, improving revenue by 17% and reducing cost per acquisition by 16%.</li>
                 </ul>
             </div>
+            <button onclick="scrollToTop()" class="back-to-top">Back to Top</button>
         </section>
 
         <section id="skills" class="mb-12">
@@ -126,38 +133,64 @@
                 <li>Data Analysis</li>
                 <li>AI Integration</li>
             </ul>
+            <button onclick="scrollToTop()" class="back-to-top">Back to Top</button>
         </section>
 
-        <section id="endorsements" class="mb-12">
+        <section id="endorsements" class="mb-12 swiper">
             <h2 class="text-4xl font-bold mb-6 text-gray-900">Endorsements</h2>
-            <ul class="space-y-6 text-gray-700">
-                <li>
-                    <strong>Alexandra Barker, Project Manager, Digital Media:</strong>
-                    <p class="italic">“Roy was always quick with responses and a pleasure to work with even in high-stress situations. He shines as a leader or a team player.”</p>
-                    <a href="https://www.linkedin.com/in/alexandra-barker/" target="_blank" class="underline text-blue-600">LinkedIn Profile</a>
-                </li>
-                <li>
-                    <strong>Derek Pedersen, CEO @ Uncorked Chocolate:</strong>
-                    <p class="italic">“Roy was a key member of the team and did everything from managing keywords to developing grassroots campaigns. He rapidly launched and evaluated many new marketing projects during a heavy growth period.”</p>
-                    <a href="https://www.linkedin.com/in/derekpedersen/" target="_blank" class="underline text-blue-600">LinkedIn Profile</a>
-                </li>
-                <li>
-                    <strong>Tia Chiacchia, Director of Account Management:</strong>
-                    <p class="italic">“Roy constantly brought new re-marketing and targeting ideas to our team. He was always hardworking, detail-oriented, and a team player.”</p>
-                    <a href="https://www.linkedin.com/in/tia-chiacchia/" target="_blank" class="underline text-blue-600">LinkedIn Profile</a>
-                </li>
-                <li>
-                    <strong>Jackson Dame, Marketer and Content Manager:</strong>
-                    <p class="italic">“Roy is a great leader, mentor, and marketer. He is wonderful to work with, super encouraging, and constantly sees the best in people.”</p>
-                    <a href="https://www.linkedin.com/in/jacksondame/" target="_blank" class="underline text-blue-600">LinkedIn Profile</a>
-                </li>
-            </ul>
+            <div class="swiper-wrapper">
+                <!-- Alexandra Barker -->
+                <div class="swiper-slide">
+                    <p class="italic">“I worked with Roy in a very fast-paced workflow system that had a lot of moving parts. Roy was always quick with responses and a pleasure to work with even in high-stress situations. He shines as a leader or a team player.”</p>
+                    <strong>Alexandra Barker, Project Manager, Digital Media</strong>
+                </div>
+                <!-- Derek Pedersen -->
+                <div class="swiper-slide">
+                    <p class="italic">“I had the pleasure of working with Roy directly on marketing strategy at Fusion. He was a key member of the team and did everything from managing keywords to developing grassroots campaigns. Roy rapidly launched and evaluated many new marketing projects during a heavy growth period that really helped the company generate new leads. I would highly recommend Roy, not only from a technical standpoint, but due to the fact that he is so fun to work with!”</p>
+                    <strong>Derek Pedersen, CEO, Uncorked Chocolate</strong>
+                </div>
+                <!-- Tia Chiacchia -->
+                <div class="swiper-slide">
+                    <p class="italic">“Roy was a pleasure to work with and constantly brought new re-marketing and targeting ideas to our team. Although our time working together was short, he was always hardworking, detail-oriented, and a team player; thank you for all your hard work and suggestions, we appreciate you so much!”</p>
+                    <strong>Tia Chiacchia, Director of Account Management</strong>
+                </div>
+                <!-- Nicholas Bailey -->
+                <div class="swiper-slide">
+                    <p class="italic">“Roy was one of the more creative reports that I’ve had over the years. He’s always shown an increased willingness to dive in and lead by example. He was known on our team for his effectiveness in campaign management and lead generation.”</p>
+                    <strong>Nicholas Bailey, Marketing Leader, Google Workspace</strong>
+                </div>
+                <!-- Amber Niblock -->
+                <div class="swiper-slide">
+                    <p class="italic">“Roy is amazing to work with— he's hardworking, energetic, clever, and a self-starter. We could always count on him to be a team player and he was essential to our brainstorming sessions. His positive energy, insight, and solid work ethic are what made him a crucial part of our team.”</p>
+                    <strong>Amber Niblock, Event Planning and Strategic Communications</strong>
+                </div>
+                <!-- Michael Stevens -->
+                <div class="swiper-slide">
+                    <p class="italic">“Roy is a pleasure to work with and is always kind to everyone he meets. He is remarkably competent and has the knack for remaining cool under pressure.”</p>
+                    <strong>Michael Stevens, Communications Director for Congresswoman Victoria Spartz</strong>
+                </div>
+                <!-- Jackson Dame -->
+                <div class="swiper-slide">
+                    <p class="italic">“Roy and I were responsible for marketing efforts at Fusion Web Clinic. He is wonderful to work with, super encouraging, and constantly sees the best in people. Through our time working together, I learned so much about marketing and content writing. He is a great leader, mentor, and marketer!”</p>
+                    <strong>Jackson Dame, Creative Director</strong>
+                </div>
+                <!-- Idelle Delapena -->
+                <div class="swiper-slide">
+                    <p class="italic">“I had the pleasure of working with Roy through Catchafire. He volunteered his time to assist us with our digital marketing strategy, including Search Engine marketing and social media. After an initial call, Roy sent over an impressive strategy including tactics, budget and strategic reasoning. He also helped us implement some immediate edits to our WordPress site to boost our search rankings. Through all our conversations, I could tell that Roy is an expert in his field and understands digital marketing and its value in today's market. I hope to work with Roy again in the future.”</p>
+                    <strong>Idelle Delapena, Omnichannel Sales-Driven Marketing and Communications Strategy</strong>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <button onclick="scrollToTop()" class="back-to-top">Back to Top</button>
         </section>
+        
 
         <section id="education" class="mb-12">
             <h2 class="text-4xl font-bold mb-6 text-gray-900">Education</h2>
             <p class="text-gray-700"><strong>University of South Carolina:</strong> JD, Law (2010 - 2013)</p>
             <p class="text-gray-700"><strong>University of Mississippi:</strong> BA, Political Science & Philosophy (2006 - 2009)</p>
+            <button onclick="scrollToTop()" class="back-to-top">Back to Top</button>
         </section>
     </main>
 
