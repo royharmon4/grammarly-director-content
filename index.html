@@ -1,60 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roy Harmon's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Roy Harmon</h1>
-        <p>Anderson, South Carolina, United States</p>
-        <p>Email: <a href="mailto:royharmon4@gmail.com">royharmon4@gmail.com</a> | Phone: (864) 414-4314</p>
-        <p><a href="https://www.linkedin.com/in/roy-harmon" target="_blank">LinkedIn Profile</a></p>
+
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-gray-900 text-white p-8 text-center">
+        <h1 class="text-5xl font-bold">Roy Harmon</h1>
+        <p class="text-xl mt-2">Anderson, South Carolina, United States</p>
+        <p class="mt-2">Email: <a href="mailto:royharmon4@gmail.com" class="underline text-blue-300">royharmon4@gmail.com</a> | Phone: (864) 414-4314</p>
+        <p><a href="https://www.linkedin.com/in/roy-harmon" target="_blank" class="underline text-blue-300">LinkedIn Profile</a></p>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#endorsements">Endorsements</a></li>
-            <li><a href="#education">Education</a></li>
+    <nav class="bg-gray-800 text-white p-4">
+        <ul class="flex justify-center space-x-6">
+            <li><a href="#cover-letter" class="hover:underline">Cover Letter</a></li>
+            <li><a href="#resume" class="hover:underline">Resume</a></li>
+            <li><a href="#skills" class="hover:underline">Skills</a></li>
+            <li><a href="#endorsements" class="hover:underline">Endorsements</a></li>
+            <li><a href="#education" class="hover:underline">Education</a></li>
         </ul>
     </nav>
 
-    <main>
-        <section id="cover-letter">
-            <h2>Cover Letter</h2>
-            <p>Dear Hiring Manager,</p>
-            <p>I am writing to express my strong interest in the Director of Content Marketing position at Grammarly...</p>
-            <!-- Full cover letter content here -->
+    <main class="max-w-4xl mx-auto p-8 bg-white shadow-lg mt-8 rounded-lg">
+        <section id="cover-letter" class="mb-12">
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">Cover Letter</h2>
+            <p class="mb-4">Dear Hiring Manager,</p>
+            <p class="mb-4">
+                I am writing to express my strong interest in the Director of Content Marketing position at Grammarly. With over a decade of experience in content strategy, creation, and leadership across various industries, I am excited about the opportunity to contribute to Grammarly’s mission of enhancing communication through innovative and high-quality content.
+            </p>
+            <p class="mb-4">
+                In my current role as Chief Marketing Officer at LeadPost, I developed and executed a comprehensive marketing strategy that significantly reduced customer acquisition costs while increasing customer engagement and sales. I also produced and hosted a successful podcast that increased brand awareness and forged connections with key accounts, resulting in a $1.6 million increase in Annual Recurring Revenue (ARR).
+            </p>
+            <p class="mb-4">
+                At Raindance, I led a team of 15 writers and content creators, managing the production of 20 high-quality, 2,000-word pieces of content per month. This challenging role honed my ability to maintain consistency and quality at scale, as evidenced by the 5,216.94% increase in unique visitors and 5,533.33% increase in free trial sign-ups that our content strategy achieved for TestGorilla.
+            </p>
+            <p class="mb-4">
+                My experience extends beyond traditional content formats. At Fusion Web Clinic, I spearheaded the creation of innovative content such as a deck of "Superpowers" cards and interactive worksheets to motivate pediatric therapists and their young patients. I have also used AI to streamline content creation, developing tools like ROI calculators and leveraging AI to draft articles based on survey data.
+            </p>
+            <p class="mb-4">
+                I envision leading Grammarly’s content strategy to new heights by integrating AI and machine learning to develop predictive content strategies that anticipate user needs. My goal is to expand Grammarly’s content offerings with more interactive and educational formats, such as AI-driven writing workshops, to further enhance user engagement and satisfaction.
+            </p>
+            <p class="mb-4">
+                I am confident that my versatile content creation experience, data-driven approach, and proven leadership skills make me an ideal candidate for this role. I look forward to the possibility of discussing how my background and vision align with Grammarly’s needs. I am available for an interview at your earliest convenience and can be reached at <a href="mailto:royharmon4@gmail.com" class="underline text-blue-600">royharmon4@gmail.com</a> or (864) 414-4314.
+            </p>
             <p>Thank you for considering my application.</p>
             <p>Sincerely,</p>
             <p>Roy Harmon</p>
         </section>
 
-        <section id="resume">
-            <h2>Professional Experience</h2>
-            <h3>Chief Marketing Officer (CMO), LeadPost</h3>
-            <p>June 2022 - Present</p>
-            <ul>
-                <li>Developed marketing strategies, reducing customer acquisition costs and increasing engagement.</li>
-                <li>Hosted a podcast that boosted brand awareness and led to a $1.6M ARR increase.</li>
-                <li>Improved onboarding processes, raising upgrade rates by 21.875%.</li>
-            </ul>
-            <h3>Managing Partner, Raindance</h3>
-            <p>April 2020 - June 2022</p>
-            <ul>
-                <li>Led a team of 15, producing 20 pieces of 2,000-word content monthly, resulting in a 5,216.94% increase in unique visitors at TestGorilla.</li>
-                <li>Implemented a content strategy at ScopeStack, significantly boosting organic search traffic.</li>
-            </ul>
-            <!-- Additional professional experience sections -->
+        <section id="resume" class="mb-12">
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">Professional Experience</h2>
+
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-800">Chief Marketing Officer (CMO), LeadPost</h3>
+                <p class="text-sm text-gray-600">June 2022 - Present</p>
+                <ul class="list-disc ml-8 mt-2 text-gray-700">
+                    <li>Developed marketing strategies, reducing customer acquisition costs and increasing engagement.</li>
+                    <li>Hosted a podcast that boosted brand awareness and led to a $1.6M ARR increase.</li>
+                    <li>Improved onboarding processes, raising upgrade rates by 21.875%.</li>
+                </ul>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-800">Managing Partner, Raindance</h3>
+                <p class="text-sm text-gray-600">April 2020 - June 2022</p>
+                <ul class="list-disc ml-8 mt-2 text-gray-700">
+                    <li>Led a team of 15, producing 20 pieces of 2,000-word content monthly, resulting in a 5,216.94% increase in unique visitors at TestGorilla.</li>
+                    <li>Implemented a content strategy at ScopeStack, significantly boosting organic search traffic.</li>
+                    <li>Managed freelance writers and mentored them to consistently improve content quality.</li>
+                </ul>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-800">Marketing Content Manager, Fusion Web Clinic</h3>
+                <p class="text-sm text-gray-600">May 2017 - February 2019</p>
+                <ul class="list-disc ml-8 mt-2 text-gray-700">
+                    <li>Created innovative content, including "Superpowers" cards, contributing to ARR growth from $1.2M to $4.1M in one year.</li>
+                    <li>Managed a $150K budget and led multichannel marketing efforts.</li>
+                    <li>Developed engaging content for pediatric therapists, including interactive worksheets and activities.</li>
+                </ul>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-800">Senior Digital Strategist, DX Marketing</h3>
+                <p class="text-sm text-gray-600">February 2019 - April 2020</p>
+                <ul class="list-disc ml-8 mt-2 text-gray-700">
+                    <li>Decreased cost per conversion by 75% and increased efficiency by 80% through strategic planning and process improvements.</li>
+                    <li>Conducted audience research to inform strategic decision-making across marketing channels.</li>
+                </ul>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-800">Digital Advertising Specialist, Chumney & Associates</h3>
+                <p class="text-sm text-gray-600">January 2016 - May 2017</p>
+                <ul class="list-disc ml-8 mt-2 text-gray-700">
+                    <li>Managed $1.5 million annually in ad spend across up to 32 clients.</li>
+                    <li>Developed strategies that increased goal completions by 71.86%, decreased cost per conversion by 50%, and doubled conversion rates.</li>
+                    <li>Engineered processes that increased operational efficiency by 92%.</li>
+                </ul>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-800">Social Media Manager, National Rifle Association</h3>
+                <p class="text-sm text-gray-600">April 2015 - January 2016</p>
+                <ul class="list-disc ml-8 mt-2 text-gray-700">
+                    <li>Developed and executed strategies across paid, earned, and owned digital channels to drive website traffic and generate leads.</li>
+                    <li>Managed social media accounts with over 4M followers, creating campaigns that increased engagement by 600%.</li>
+                    <li>Produced a high-performing video ad for Facebook, improving revenue by 17% and reducing cost per acquisition by 16%.</li>
+                </ul>
+            </div>
         </section>
 
-        <section id="skills">
-            <h2>Key Skills</h2>
-            <ul>
+        <section id="skills" class="mb-12">
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">Key Skills</h2>
+            <ul class="list-disc ml-8 text-gray-700">
                 <li>Digital Marketing</li>
                 <li>Content Strategy</li>
                 <li>SEO & SEM</li>
@@ -64,26 +128,43 @@
             </ul>
         </section>
 
-        <section id="endorsements">
-            <h2>Endorsements</h2>
-            <ul>
-                <li><strong>Alexandra Barker, Project Manager, Digital Media:</strong> “Roy was always quick with responses and a pleasure to work with even in high-stress situations.” <a href="https://www.linkedin.com/in/alexandra-barker/" target="_blank">LinkedIn Profile</a></li>
-                <li><strong>Derek Pedersen, CEO @ Uncorked Chocolate:</strong> “Roy rapidly launched and evaluated many new marketing projects during a heavy growth period.” <a href="https://www.linkedin.com/in/derek-pedersen/" target="_blank">LinkedIn Profile</a></li>
-                <!-- Additional endorsements -->
+        <section id="endorsements" class="mb-12">
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">Endorsements</h2>
+            <ul class="space-y-6 text-gray-700">
+                <li>
+                    <strong>Alexandra Barker, Project Manager, Digital Media:</strong>
+                    <p class="italic">“Roy was always quick with responses and a pleasure to work with even in high-stress situations. He shines as a leader or a team player.”</p>
+                    <a href="https://www.linkedin.com/in/alexandra-barker/" target="_blank" class="underline text-blue-600">LinkedIn Profile</a>
+                </li>
+                <li>
+                    <strong>Derek Pedersen, CEO @ Uncorked Chocolate:</strong>
+                    <p class="italic">“Roy was a key member of the team and did everything from managing keywords to developing grassroots campaigns. He rapidly launched and evaluated many new marketing projects during a heavy growth period.”</p>
+                    <a href="https://www.linkedin.com/in/derek-pedersen/" target="_blank" class="underline text-blue-600">LinkedIn Profile</a>
+                </li>
+                <li>
+                    <strong>Tia Chiacchia, Director of Account Management:</strong>
+                    <p class="italic">“Roy constantly brought new re-marketing and targeting ideas to our team. He was always hardworking, detail-oriented, and a team player.”</p>
+                    <a href="https://www.linkedin.com/in/tia-chiacchia/" target="_blank" class="underline text-blue-600">LinkedIn Profile</a>
+                </li>
+                <li>
+                    <strong>Jackson Dame, Marketer and Content Manager:</strong>
+                    <p class="italic">“Roy is a great leader, mentor, and marketer. He is wonderful to work with, super encouraging, and constantly sees the best in people.”</p>
+                    <a href="https://www.linkedin.com/in/jacksondame/" target="_blank" class="underline text-blue-600">LinkedIn Profile</a>
+                </li>
             </ul>
         </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <p><strong>University of South Carolina:</strong> JD, Law (2010 - 2013)</p>
-            <p><strong>University of Mississippi:</strong> BA, Political Science & Philosophy (2006 - 2009)</p>
+        <section id="education" class="mb-12">
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">Education</h2>
+            <p class="text-gray-700"><strong>University of South Carolina:</strong> JD, Law (2010 - 2013)</p>
+            <p class="text-gray-700"><strong>University of Mississippi:</strong> BA, Political Science & Philosophy (2006 - 2009)</p>
         </section>
     </main>
 
-    <footer>
+    <footer class="bg-gray-900 text-white p-6 text-center mt-12">
         <p>&copy; 2024 Roy Harmon. All rights reserved.</p>
     </footer>
 
-    <script src="scripts.js"></script>
 </body>
+
 </html>
